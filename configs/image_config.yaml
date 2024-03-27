@@ -1,7 +1,7 @@
 seed: -1
-use_wandb: False
-wandb_project: project_name  # enter your project name here
-wandb_entity: project_entity  # enter your entity here
+use_wandb: True
+wandb_project: text2live  # enter your project name here
+wandb_entity: test_entity  # enter your entity here
 device: cuda
 log_images_freq: 50
 # dataset configuration
@@ -37,6 +37,7 @@ use_negative_bootstrap: False
 
 # CLIP handling configuration
 n_aug: 16  # number of augmentations to be applied before CLIP
+# clip_model_name: "ViT-B/32" # ViT-B/16 | ViT-B/32 | ViT-L/14
 clip_model_name: "ViT-B/32" # ViT-B/16 | ViT-B/32 | ViT-L/14
 relevancy_num_layers: 10
 

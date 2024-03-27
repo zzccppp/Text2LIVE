@@ -11,3 +11,4 @@ imageio
 imageio-ffmpeg
 pyyaml
 gdown
+wandb
