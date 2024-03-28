@@ -1,7 +1,7 @@
 seed: -1
 use_wandb: True
 wandb_project: text2live  # enter your project name here
-wandb_entity: test_entity  # enter your entity here
+wandb_entity: muztaga2  # enter your entity here
 device: cuda
 log_images_freq: 50
 # dataset configuration
